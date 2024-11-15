@@ -86,8 +86,8 @@ A prebuilt Docker image is available on Docker Hub. You can quickly deploy the A
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone git@github.com:maveonair/sevencapi.git
+   cd sevencapi
    ```
 
 2. Install dependencies:
@@ -118,7 +118,3 @@ Interactive API documentation is available at:
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
---- 
-
-Let me know if further tweaks are needed!
