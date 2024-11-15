@@ -36,5 +36,6 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t maveonair/sevencapi:${{ env.TAG }} .
+          docker build -t maveonair/sevencapi:latest -t maveonair/sevencapi:${{ env.TAG }} .
           docker push maveonair/sevencapi:${{ env.TAG }}
+          docker push maveonair/sevencapi:latest
